@@ -58,6 +58,38 @@ progetto */
     padding-bottom: 1%;
 }
 
+#SecondaParte{
+    width: 60%; 
+    background-color: white;
+    margin-top: 3px;
+    padding: 0 5%;
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px ;
+}
+.v{
+    border: 2px solid rgb(150, 251, 0);
+    color: rgb(150, 251, 0);
+    border-radius: 50%;
+    padding: .5%;
+}
+.ToDo{
+    margin-top: 1%;
+}
+.things{
+    font-size: larger;
+    padding: 0 2%;
+}
 
+.type{
+    border-radius: 15px;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+}
+.azzurro{
+    background-color: #20c3ff;
+}
    
+h2{
+    margin-top: 4%;
+}
 
