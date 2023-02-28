@@ -4,8 +4,8 @@
 }
 /* definisco colore del body  */
 body{
-    background-color: rgb(198, 246, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(215, 234, 237, 0.544);
+    font-family:  Arial, Helvetica, sans-serif;
 }
 /* definito colore e padding dell header */
 header{
@@ -29,7 +29,7 @@ h1{
 /* prima parte del main a cui viene definita una larghezza ed un colore 
 aggiunto anche un padding laterale */
 .primaParte{
-   width: 60%; 
+   width: 70%; 
    background-color: white;
    margin-top: 1%;
    padding: 0% 5%;
@@ -41,6 +41,7 @@ aggiunto anche un padding laterale */
     margin-top: 3%;
     border-radius: 5px;
     text-align: center;
+    font-size: large;
 }
 #AddTask{
     border: 0px;
@@ -50,6 +51,7 @@ aggiunto anche un padding laterale */
 #AddSection{
     border:1px solid rgb(164, 164, 164);
     color:rgb(164, 164, 164);
+    background-color: rgba(250, 235, 215, 0);
 
 }
 /* il colore sottostante mi serve solo ad orientarmi meglio sulle dimensioni fino al termine del 
@@ -59,7 +61,7 @@ progetto */
 }
 
 .SecondaParte{
-    width: 60%; 
+    width: 70%; 
     background-color: white;
     margin-top: 3px;
     padding: 3% 5%;
