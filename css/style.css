@@ -55,7 +55,6 @@ aggiunto anche un padding laterale */
 /* il colore sottostante mi serve solo ad orientarmi meglio sulle dimensioni fino al termine del 
 progetto */
 .container{
-    background-color: bisque;
     padding-bottom: 1%;
 }
 
@@ -63,7 +62,7 @@ progetto */
     width: 60%; 
     background-color: white;
     margin-top: 3px;
-    padding: 0 5%;
+    padding: 3% 5%;
     padding-top: 10px;
     border-radius: 0px 0px 10px 10px ;
 }
@@ -80,7 +79,7 @@ progetto */
     padding: .5%;
 }
 .ToDo{
-    margin-top: 4%;
+    margin-top: 3%;
 }
 .things{
     font-size: larger;
@@ -109,4 +108,12 @@ h2{
 }
 .arancione{
     background-color: rgb(255, 179, 39);
+}
+.rosa{
+    background-color: rgb(216,99,161);
+}
+
+.verdeChiaro{
+    background-color: rgb(175, 199, 30);
+
 }
