@@ -5,6 +5,7 @@
 /* definisco colore del body  */
 body{
     background-color: rgb(198, 246, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* definito colore e padding dell header */
 header{
@@ -58,7 +59,7 @@ progetto */
     padding-bottom: 1%;
 }
 
-#SecondaParte{
+.SecondaParte{
     width: 60%; 
     background-color: white;
     margin-top: 3px;
@@ -67,13 +68,19 @@ progetto */
     border-radius: 0px 0px 10px 10px ;
 }
 .v{
-    border: 2px solid rgb(150, 251, 0);
+    border: 3px solid rgb(150, 251, 0);
     color: rgb(150, 251, 0);
     border-radius: 50%;
     padding: .5%;
 }
+.x{
+    color: red;
+    border: 3px solid red;
+    border-radius: 50%;
+    padding: .5%;
+}
 .ToDo{
-    margin-top: 1%;
+    margin-top: 4%;
 }
 .things{
     font-size: larger;
@@ -81,6 +88,7 @@ progetto */
 }
 
 .type{
+    font-size: smaller;
     border-radius: 15px;
     padding: 1%;
     color: rgb(255, 255, 255);
@@ -93,3 +101,12 @@ h2{
     margin-top: 4%;
 }
 
+.viola{
+    background-color: #5820ff;
+}
+.verde{
+    background-color: rgb(76, 184, 76);
+}
+.arancione{
+    background-color: rgb(255, 179, 39);
+}
