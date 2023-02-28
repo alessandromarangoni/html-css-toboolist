@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+}
+/* definisco colore del body  */
+body{
+    background-color: rgb(198, 246, 255);
+}
+/* definito colore e padding dell header */
+header{
+    padding:1%;
+    background-color: white;
+}
+/* centro verticalmente logo e titolo */
+#titolo {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#logo{
+    vertical-align: middle;
+}
+/* ridimensiono titolo */
+h1{
+    font-size: 50px;
+}
+/* prima parte del main a cui viene definita una larghezza ed un colore 
+aggiunto anche un padding laterale */
+.primaParte{
+   width: 60%; 
+   background-color: white;
+   margin-top: 1%;
+   padding: 0% 5%;
+   border-radius: 10px 10px 0 0 ;
+}
+/* definisco le proprietà grafiche dei bottoni */
+.button{
+    padding: 1%;
+    margin-top: 3%;
+    border-radius: 5px;
+    text-align: center;
+}
+#AddTask{
+    border: 0px;
+    color: white;
+    background-color: #20c3ff;
+}
+#AddSection{
+    border:1px solid rgb(164, 164, 164);
+    color:rgb(164, 164, 164);
+
+}
+/* il colore sottostante mi serve solo ad orientarmi meglio sulle dimensioni fino al termine del 
+progetto */
+.container{
+    background-color: bisque;
+    padding-bottom: 1%;
+}
+
+
+   
+
